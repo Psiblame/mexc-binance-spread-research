@@ -1,0 +1,20 @@
+{
+  "name": "mexc-binance-spread-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline research derived from an existing exchange strategy; legacy runtime quarantined.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "demo": "node src/demo.js",
+    "check": "node --check src/math.js && node --check src/config.js && node --check src/demo.js"
+  },
+  "keywords": [
+    "market-data",
+    "offline",
+    "security-review"
+  ],
+  "dependencies": {}
+}
